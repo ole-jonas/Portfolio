@@ -34,9 +34,30 @@ header {
 section {
   height: 100vh;
 }
+ 
+.homeSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.homeText {
+   width: 50%;
+}
+
+.homeImg {
+  width: 50%;
+
+}
 /* FOOTER */
 footer {
   display: flex;
   justify-content: center;
 }
+
+/* Media */
+@media (max-width: 426px) {
+  .homeSection {
+    flex-direction: column;
+  }
+} 
